@@ -1,0 +1,6 @@
+fastapi==0.110.3
+uvicorn==0.29.0
+pydantic==2.8.2
+orjson==3.10.7
+tokenizers==0.19.1
+./fastchunk

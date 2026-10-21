@@ -1,0 +1,15 @@
+[package]
+name = "fastchunk"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "fastchunk"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.6", features = ["extension-module"] }
+
+[profile.release]
+lto = true
+codegen-units = 1

@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.so
+profile.svg
+
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+package-lock.json
+ep02-rust-inside-python/js-tooling/src/
+
+# Generated
+ep02-rust-inside-python/data/payload.json
+ep02-rust-inside-python/results.md
