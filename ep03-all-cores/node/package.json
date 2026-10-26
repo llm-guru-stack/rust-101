@@ -1,0 +1,18 @@
+{
+  "name": "fastchunk-node",
+  "version": "0.2.0",
+  "private": true,
+  "description": "The same Rust chunker, called from Node.js with napi-rs (Rust 101, episode 3)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "binaryName": "fastchunk"
+  },
+  "scripts": {
+    "build": "napi build --platform --release",
+    "bench": "node bench.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^3.0.0"
+  }
+}

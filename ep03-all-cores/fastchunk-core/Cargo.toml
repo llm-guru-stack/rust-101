@@ -1,0 +1,8 @@
+[package]
+name = "fastchunk-core"
+version = "0.2.0"
+edition = "2021"
+description = "Sentence chunking with overlap. Plain Rust: no Python, no Node."
+
+[dependencies]
+rayon = "1.10"

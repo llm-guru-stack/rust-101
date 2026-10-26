@@ -1,0 +1,12 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "fastchunk"
+version = "0.2.0"
+description = "Sentence chunking on every CPU core, written in Rust (Rust 101, episode 3)"
+requires-python = ">=3.9"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]

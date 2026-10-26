@@ -17,3 +17,7 @@ ep02-rust-inside-python/js-tooling/src/
 # Generated
 ep02-rust-inside-python/data/payload.json
 ep02-rust-inside-python/results.md
+ep03-all-cores/data/docs.json
+*.node
+ep03-all-cores/node/index.js
+ep03-all-cores/node/index.d.ts
